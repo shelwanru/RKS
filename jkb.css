@@ -1,0 +1,23 @@
+div.open1{
+    position: inherit;
+    float: left;
+    width: 400px;
+    margin: 10px;
+}
+.open2{
+    float: right;
+    margin: 10px;
+    width: 400px;
+}
+main{
+    position: relative;
+    min-height: calc(111vh - 200px - 65px);
+    margin: 20px;
+    padding-top: 10vmax;
+    padding-bottom: 10vmax;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
